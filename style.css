@@ -1,0 +1,16 @@
+.uxDesigner{
+    padding: 5vw 0 0 13vw !important;
+}
+.Resume{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 9px;
+    border-width: 2px;
+}
+.Resume:hover{
+    background-color: black;
+    color: white;
+}
+.specialEle{
+    background-color: lightpink;
+}
