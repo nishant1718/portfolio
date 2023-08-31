@@ -7,10 +7,39 @@
     border-radius: 9px;
     border-width: 2px;
 }
+.Play{
+    background-color: white;
+    padding: 5px 50px;
+    border-width: 2px;
+}
+.Play:hover{
+    background-color: black;
+    color: white;
+}
 .Resume:hover{
     background-color: black;
     color: white;
 }
 .specialEle{
     background-color: lightpink;
+}
+.containerNew{
+    padding: 2.5em 16vw;
+}
+.office img{
+    width: 400px;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.footer{
+    background-color: rgb(175, 120, 226);
 }
